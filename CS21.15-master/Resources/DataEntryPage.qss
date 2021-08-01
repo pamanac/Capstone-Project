@@ -1,0 +1,7 @@
+NestedTabBar {
+	background-color: #DDDDDD;
+}
+
+QTabBar::tab:selected {
+	background-color: blue;
+}

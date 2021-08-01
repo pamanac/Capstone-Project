@@ -1,0 +1,145 @@
+{
+  "Drop Aircraft": {
+    "ACMass": 2300,
+    "Single": {},
+    "Tire": [
+      {},
+      {},
+      {}
+    ],
+    "Rigid Leg": [
+      {},
+      {},
+      {}
+    ]
+  },
+
+  "Symmetric Aircraft": {
+    "ACMass": null,
+    "ACIXX": null,
+    "ACIYY": null,
+    "ACIZZ": null,
+    "ACIXZ": null,
+    "XE": null,
+    "ZE": null,
+    "EPI": null,
+    "ENGH": null,
+    "S": null,
+    "B": null,
+    "CBAR": null,
+    "R0": null,
+    "CD0": null,
+    "AKCD": null,
+    "CDS": null,
+    "CDN": null,
+    "CL0": null,
+    "CDA": null,
+    "CMS": null,
+    "KI": null,
+    "KP": null,
+    "KD": null,
+    "K1": null,
+    "Single": {},
+    "Rigid Leg": [
+      {},
+      {}
+    ],
+    "Tire": [
+      {},
+      {}
+    ]
+  },
+
+  "Rigid Leg": {
+    "UtLen": null,
+    "LtLen": null,
+    "LtMax": null,
+    "LtMin": null,
+    "LDiam": null,
+    "LThick": null,
+    "PosLeg": null,
+    "ABL": 12,
+    "PinAng": null,
+    "Oleo": {}
+  },
+
+  "Oleo": {
+    "StaticForceVsClosure": [],
+    "DampingCoeff": [],
+    "FrictionCoeff": []
+  },
+
+  "Scenario": {
+    "SimulationTime": null,
+    "TimeStep": null,
+    "TimeInterval": null
+  },
+
+  "Drop Test": {
+    "Scenario": {},
+    "Runway": {},
+    "THReq": null,
+    "VReq": null,
+    "WReq": null,
+    "InitialX": null,
+    "InitialZ": null
+  },
+
+  "Symmetric Landing": {
+    "Scenario": {},
+    "THReq": null,
+    "VReq": null,
+    "WReq": null,
+    "InitialX": null,
+    "InitialZ": null,
+    "DTHReq": null,
+    "VYReq": null,
+    "PhiReq": null,
+    "SiReq": null,
+    "WindSpeedXVsTime": [],
+    "WindSpeedYVsTime": [],
+    "WindSpeedZVsTime": [],
+    "ThrustVsTime": [],
+    "SpoilerVsTime": [],
+    "PitchAttitudeVsTime": [],
+    "ElevatorCommandVsTime": []
+  },
+
+  "Single": {
+    "LBB": null,
+    "ZBB": null,
+    "YBB": null,
+    "AW": null,
+    "DMB": null,
+    "TMB": null,
+    "DAX": null,
+    "TAX": null
+  },
+
+  "Tire": {
+    "D": null,
+    "W": null,
+    "IW": null,
+    "MW": null,
+    "BALM": null,
+    "DYNARM": null,
+    "MUR": null,
+    "KTYR": null,
+    "KXK1": null,
+    "PRESS": null,
+    "P0": null,
+    "KV": null,
+    "CV": null,
+    "LongitudinalTable": [],
+    "LateralTable": [],
+    "FrictionVsVelocity": [],
+    "LongitudinalVsLateral": [],
+    "IncludeCamberTiltEffect": null
+  },
+
+  "Runway": {
+    "SlipRegions": [],
+    "Profile": [],
+    "Random": []
+  }
+}

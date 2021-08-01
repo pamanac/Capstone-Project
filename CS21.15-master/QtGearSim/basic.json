@@ -1,0 +1,8 @@
+{
+	"Hello" : {
+		"subitem": 1
+		"I'm a subobject" {
+			"subitem": 1
+		}
+	}
+}

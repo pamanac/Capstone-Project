@@ -1,0 +1,199 @@
+{
+	"Narrow Body Commercial": { 
+		"Aircraft": {
+			"Inertia Properties": null
+		},
+	},
+	
+	"Nose Gear": {
+		"Rigid Leg": {
+			"Leg geometry variables": {
+				"UTLEN": 0,
+				"LTLEN": 0,
+				"LTMAX": 0,
+				"LTMIN": 0,
+				"LDIAM": 0,
+				"LTHICK": 0
+			},
+			"Leg Position": {
+				"POSLEG(1)": 0,
+				"POSLEG(2)": 0,
+				"POSLEG(3)": 0
+			},
+			"Leg Orientation": {
+				"ABL(1)": 0,
+				"ABL(2)": 0,
+				"ABL(3)": 0,
+				"PINANG(1)": 0,
+				"PINANG(2)": 0,
+				"PINANG(3)": 0
+			}
+		},
+		"Oleo": {
+			"Oleo Design Menu": null, //Syntax indicates that test file must fill in parameters
+			"TABLE: Static Force vs Closure": {
+				"Column Names": [ "Static Force", "Closure" ],
+				"data": null
+
+			},
+			"TABLE: Damping Coefficient": {
+				"Column Names": [ "Damping Coefficient" ],
+				"data": null
+			},
+			"Friction Coefficient": null
+		},
+		"Single Subsystem": {
+			"Overall Geometry": {
+				"LBB": 0,
+				"ZBB": 0,
+				"YBB": 0,
+				"AW": 0
+			},
+			"Structural Details": {
+				"DMB": 0,
+				"TMB": 0,
+				"DAX": 0,
+				"TAX": 0
+			}
+		},
+		"Tire Subsystem": {
+			"Basic geometry ": {
+				"D": 0,
+				"W": 0,
+				"IW": 0,
+				"MW": 0
+			},
+			"General tire properties": {
+				"BALM": 0,
+				"DYNARM": 0,
+				"MUR": 0,
+				"KTYR": 0,
+				"KXK1": 0
+			},
+			"Vertical behavior": {
+				"PRESS": 0,
+				"P0": 0,
+				"KV": 0,
+				"CV": 0
+			},
+			"TABLE: Longitudinal Behavior": {
+				"Column names": [ "Longitudinal Value" ],
+				"data": null
+			},
+			"TABLE: Lateral Behavior": {
+				"Column names": [ "Lateral Value" ],
+				"data": null
+			},
+			"TABLE: Hydroplaning model": {
+				"Column names": [ "Hydroplanning Value" ],
+				"data": null
+			},
+			"TABLE: Longitudinal Lateral interaction": {
+				"Column names": [ "Longitudinal Value", "Lateral Value" ],
+				"data": null
+			},
+			"Camber/Tilt effect": 0
+		}
+	}.
+	
+	"Rear Gear": {
+		"Rigid Leg": {
+			"Leg geometry variables": {
+				"UTLEN": 0,
+				"LTLEN": 0,
+				"LTMAX": 0,
+				"LTMIN": 0,
+				"LDIAM": 0,
+				"LTHICK": 0
+			},
+			"Leg Position": {
+				"POSLEG(1)": 0,
+				"POSLEG(2)": 0,
+				"POSLEG(3)": 0
+			},
+			"Leg Orientation": {
+				"ABL(1)": 0,
+				"ABL(2)": 0,
+				"ABL(3)": 0,
+				"PINANG(1)": 0,
+				"PINANG(2)": 0,
+				"PINANG(3)": 0
+			}
+		},
+		"Oleo": {
+			"Oleo Design Menu": null, //Syntax indicates that test file must fill in parameters
+			"TABLE: Static Force vs Closure": {
+				"Column Names": [ "Static Force", "Closure" ],
+				"data": null
+
+			},
+			"TABLE: Damping Coefficient": {
+				"Column Names": [ "Damping Coefficient" ],
+				"data": null
+			},
+			"Friction Coefficient": null
+		},
+		"Single Subsystem": {
+			"Overall Geometry": {
+				"LBB": 0,
+				"ZBB": 0,
+				"YBB": 0,
+				"AW": 0
+			},
+			"Structural Details": {
+				"DMB": 0,
+				"TMB": 0,
+				"DAX": 0,
+				"TAX": 0
+			}
+		},
+		"Tire Subsystem": {
+			"Basic geometry ": {
+				"D": 0,
+				"W": 0,
+				"IW": 0,
+				"MW": 0
+			},
+			"General tire properties": {
+				"BALM": 0,
+				"DYNARM": 0,
+				"MUR": 0,
+				"KTYR": 0,
+				"KXK1": 0
+			},
+			"Vertical behavior": {
+				"PRESS": 0,
+				"P0": 0,
+				"KV": 0,
+				"CV": 0
+			},
+			"TABLE: Longitudinal Behavior": {
+				"Column names": [ "Longitudinal Value" ],
+				"data": null
+			},
+			"TABLE: Lateral Behavior": {
+				"Column names": [ "Lateral Value" ],
+				"data": null
+			},
+			"TABLE: Hydroplaning model": {
+				"Column names": [ "Hydroplanning Value" ],
+				"data": null
+			},
+			"TABLE: Longitudinal Lateral interaction": {
+				"Column names": [ "Longitudinal Value", "Lateral Value" ],
+				"data": null
+			},
+			"Camber/Tilt effect": 0
+		}
+	}.
+	
+	"Runway": {
+		"SlipRegions": {
+			"Slip Regions": null,
+		},
+		"runwayProfile": {
+			"Runway Profile": null,
+			"Random inputs": null
+		},
+	}
+}

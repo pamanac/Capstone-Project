@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>Resources/Logo.PNG</file>
+        <file>Resources/gearsim.png</file>
+        <file>Resources/Narrobody_Commercial.PNG</file>
+        <file>Resources/GearSim.ico</file>
+        <file>Resources/MilitaryI.jpg</file>
+        <file>Resources/MilitaryII.jpg</file>
+        <file>Resources/newProject.qss</file>
+        <file>Resources/splashScreen.qss</file>
+        <file>Resources/plot1.png</file>
+        <file>Resources/plot2.png</file>
+        <file>Resources/plot3.png</file>
+        <file>Resources/modules.json</file>
+        <file>QtGearSim/filters.json</file>
+        <file>Resources/Simulation Files/SymmetricLandingTest.json</file>
+        <file>Resources/Delegate.qss</file>
+        <file>Resources/MainWindow.qss</file>
+        <file>Resources/GenericPage.qss</file>
+        <file>Resources/DataEntryPage.qss</file>
+        <file>Resources/NewProjectPage.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,103 @@
+{
+  "$AircraftType": {
+    "Aircraft": {
+      "Inertia Properties": {
+        "ACMASS": 0
+      }
+    },
+    "Rigid Leg": {
+      "-LegPosition": null
+    },
+    "Oleo": {
+      "Oleo Design Menu": {
+        "Oleo Setting1": 0,
+        "Oleo Setting2": 0
+      },
+      "TABLE: Static Force vs Closure": {
+        "data": [
+          [
+            0,
+            0.02286,
+            0.04572,
+            0.06858
+          ],
+
+          [
+            0,
+            62623.8,
+            125248,
+            187871
+          ]
+        ]
+      },
+      "TABLE: Damping Coefficient": {
+        "data": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "Friction Coefficient": {
+        "Friction Magnitude": 0,
+        "Friction change value": 0
+      }
+    },
+    "Tire Subsystem": {
+      "TABLE: Longitudinal Behavior": {
+        "data": [
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "TABLE: Lateral Behavior": {
+        "data": [
+          [
+            1,
+            2,
+            3
+          ]
+
+        ]
+      },
+      "TABLE: Hydroplaning model": {
+        "data": [
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      "TABLE: Longitudinal Lateral interaction": {
+        "data": [
+
+          [ 1, 2, 3 ],
+          [ 4, 5, 6 ]
+
+        ]
+      }
+    },
+    "Ruway": {
+      "Slip Regions": {
+        "North": 0,
+        "South": 0,
+        "East": 0,
+        "West": 0
+      },
+      "Runway Profile": {
+        "Profile1": 0,
+        "Profile2": 0
+      },
+      "Random inputs": {
+        "Wet": 0,
+        "Slippery": 0
+      }
+    }
+  }
+}

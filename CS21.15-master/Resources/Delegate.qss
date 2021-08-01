@@ -1,0 +1,6 @@
+QCheckBox#Editor{
+	font-size: 10pt;
+	font-weight: 900;
+	color: black; 
+	background-color: white;
+}

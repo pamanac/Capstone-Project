@@ -1,0 +1,12 @@
+
+QListView#DockList {
+    background-color: #C4C4C4;
+}
+
+QStackedWidget#CentralWidget {
+    background-color: white;
+}
+
+QListView {
+    background-color: #DDDDDD;
+}

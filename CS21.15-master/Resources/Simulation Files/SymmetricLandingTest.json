@@ -1,0 +1,43 @@
+{
+  "$AircraftType": {
+    "Aircraft": {
+      "Inertia Properties": {
+        "ACMASS": 0,
+        "ACIXX": 0,
+        "ACIYY": 0,
+        "ACIZZ": 0,
+        "ACIXZ": 0
+      },
+      "Propulsion system ": {
+        "XE": 0,
+        "ZE": 0,
+        "EPI": 0,
+        "ENGH": 0
+      },
+      "General parameters": {
+        "S": 0,
+        "B": 0,
+        "CBAR": 0,
+        "R0": 0
+      },
+      "Aerodynamic coeffients": {
+        "CD0": 0,
+        "AKCD": 0,
+        "CDS": 0,
+        "CDN": 0,
+        "CL0": 0,
+        "CDA": 0
+      }
+    },
+    "Flight Controls": {
+      "KI": 0,
+      "KP": 0,
+      "KD": 0,
+      "K1": 0
+    },
+    "Leg Arrangement": {
+      "NLG": 0,
+      "MLG": 0
+    }
+  }
+}

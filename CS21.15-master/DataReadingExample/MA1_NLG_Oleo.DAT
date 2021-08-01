@@ -1,0 +1,192 @@
+OLEO1
+
+Automatically generated input file...
+1   Main cylinder area              A1                  0.0054                m^2 
+2   Annular piston area             A2                  0                     m^2 
+3   Sliding tube internal area      AG                  0.0054                m^2 
+4   1st chamber init gas vol.       VGO1                0.0029                m^3 
+5   1st chamber min. gas vol.       VGMIN1              0.0003                m^3 
+6   Charging pressure for 1st cham  PGO1                1.75e6                N/m^2 
+7   Polytropic index 1st chamber    GAM1                1.2                   - 
+8   2nd Chamer init gas vol.        VGO2                0                     m^3 
+9   2nd chamber min. gas vol.       VGMIN2              0                     m^3 
+10  2nd chamber charge pressure     PGO2                0                     N/m^2 
+11  2nd chamber polytropic index    GAM2                0                     - 
+12  Main compression orifice area   AC1                 6e-05                 m^2 
+13  Main recoil orifice area        AR1                 6e-05                 m^2 
+14  Secondary compression orifice   AC2                 0                     m^2 
+15  Secondary recoil orifice area   AR2                 0                     m^2 
+16  Orifice flow coefficient        K                   0.03                  m^2srt/N 
+17  Oleo piston mass                MPO                 108.5                 kg 
+18  Fluid fraction of swept vol.    FFRACT              0                     - 
+19  Fluid pre-charge pressure       PFLUID              0                     N/m^2 
+20  Effective fluid bulk modulus    BETA                100                   N/m^2 
+21  Eye to piston bearing length    LB                  1.447                 m 
+22  Eye to lower bearing length     LC                  0.785                 m 
+23  Static/dynamic friction ratio   FRATIO              1                     - 
+24  Friction coeff. upper bearing   MU1                 0.1                   - 
+25  Friction coeff. lower bearing   MU2                 0.1                   - 
+26  Seal Friction force             SEALF               1000                  N 
+27  Initial position (stroke) of o  ZLINIT              0                     m 
+28  Oleo type flag                  OLEOTYP             1                     - 
+29  Use air curve from lookup tabl  AIRTAB              1                     - 
+30  Use damping curve from lookup   DAMTAB              1                     - 
+31  Use friction curve from lookup  FRITAB              0                     - 
+32  Use bi-stable orifice (not use  BISFLG              0                     - 
+33  Oleo stroke                     STROKE              0.43                  m 
+
+
+End auto-generated variable section...
+
+Load Vs Deflection 
+31
+0            19911.8      
+0.0175909    20687.6      
+0.0351818    21526.3      
+0.0527727    22435.9      
+0.0703636    23425.7      
+0.0879545    24506.9      
+0.105545     25692.7      
+0.123136     26999.1      
+0.140727     28445.5      
+0.158318     30055.6      
+0.175909     31859        
+0.1935       33892.5      
+0.211091     36203.4      
+0.228682     38852.4      
+0.246273     41919.7      
+0.263864     45512.8      
+0.281455     49779.6      
+0.299045     54929.2      
+0.316636     61267.2      
+0.334227     69258.6      
+0.351818     79647.4      
+0.359636     87121.2      
+0.367455     95932.1      
+0.375273     106452       
+0.383091     119201       
+0.390909     134924       
+0.398727     154730       
+0.406545     180332       
+0.414364     214518       
+0.422182     262116       
+0.43         332223       
+END table Load Vs Deflection 
+
+
+Compression Damping Coefficient 
+31
+0            213099       
+0.0175909    86757.7      
+0.0351818    40310.9      
+0.0527727    29109.6      
+0.0703636    24510.6      
+0.0879545    22490.7      
+0.105545     21481.3      
+0.123136     21309.9      
+0.140727     21690.1      
+0.158318     22539.2      
+0.175909     23924.7      
+0.1935       25604.2      
+0.211091     28075.6      
+0.228682     30570.8      
+0.246273     33875.1      
+0.263864     38251.9      
+0.281455     43397.5      
+0.299045     49984        
+0.316636     58467.3      
+0.334227     70159.1      
+0.351818     87128.2      
+0.359636     96061        
+0.367455     107433       
+0.375273     122113       
+0.383091     145674       
+0.390909     191803       
+0.398727     213099       
+0.406545     213099       
+0.414364     213099       
+0.422182     213099       
+0.43         213099       
+END table Compression Damping Coefficient 
+
+
+Recoiil Damping Coefficient 
+31
+0            48600        
+0.0175909    48600        
+0.0351818    48600        
+0.0527727    48600        
+0.0703636    48600        
+0.0879545    48600        
+0.105545     48600        
+0.123136     48600        
+0.140727     48600        
+0.158318     48600        
+0.175909     48600        
+0.1935       48600        
+0.211091     48600        
+0.228682     48600        
+0.246273     48600        
+0.263864     48600        
+0.281455     48600        
+0.299045     48600        
+0.316636     48600        
+0.334227     48600        
+0.351818     48600        
+0.359636     48600        
+0.367455     48600        
+0.375273     48600        
+0.383091     48600        
+0.390909     48600        
+0.398727     48600        
+0.406545     48600        
+0.414364     48600        
+0.422182     48600        
+0.43         48600        
+END table Recoiil Damping Coefficient 
+
+
+Friction Coefficient Vs Deflection 
+40
+0            0.268662     
+0.0110256    0.263556     
+0.0220513    0.258589     
+0.0330769    0.253756     
+0.0441026    0.249052     
+0.0551282    0.244471     
+0.0661538    0.240009     
+0.0771795    0.235661     
+0.0882051    0.231423     
+0.0992308    0.22729      
+0.110256     0.223259     
+0.121282     0.219327     
+0.132308     0.215488     
+0.143333     0.211741     
+0.154359     0.208082     
+0.165385     0.204508     
+0.17641      0.201016     
+0.187436     0.197603     
+0.198462     0.194267     
+0.209487     0.191004     
+0.220513     0.187813     
+0.231538     0.184692     
+0.242564     0.181637     
+0.25359      0.178647     
+0.264615     0.17572      
+0.275641     0.172854     
+0.286667     0.170047     
+0.297692     0.167297     
+0.308718     0.164602     
+0.319744     0.161961     
+0.330769     0.159373     
+0.341795     0.156835     
+0.352821     0.154346     
+0.363846     0.151905     
+0.374872     0.14951      
+0.385897     0.147161     
+0.396923     0.144855     
+0.407949     0.142592     
+0.418974     0.140371     
+0.43         0.138189     
+END table Friction Coefficient Vs Deflection 
+

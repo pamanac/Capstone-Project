@@ -1,0 +1,17 @@
+sequenceDiagram
+    User->>+ModuleLoader: Airplane Selected
+    User->>+ModuleLoader: Simulation Selected
+    ModuleLoader->>+ModuleLoader : Merge Premade .json Files based on Selections
+    ModuleLoader->>+JsonModel : .json File for Simulation
+    JsonModel->>+DataEntryPage : Source Model
+    DataEntryPage->>+DataEntryPage : Primary Proxy Model for Each Root Key in Source Model
+    DataEntryPage->>+NestedTabBar : Primary Tab for Each Primary Proxy Model
+    DataEntryPage->>+DataEntryPage : Secondary Proxy Model for Each Root Key in Each Primary Proxy Model
+    DataEntryPage->>+NestedTabBar : Secondary Tab for Each Secondary Proxy Model
+    DataEntryPage->>+DisplayStack : View for Each Secondary Proxy Model
+    NestedTabBar->>+DisplayStack : Connect Tab Selection to Current View Selection
+    User->>+DisplayStack : Set Variables for Airplane, Simulation Selection In Each View of DisplayStack
+    DisplayStack->>+DataEntryPage : Each Secondary Proxy Model Updated by User Input From Each View
+    DataEntryPage->>+JsonModel : Source Model Updated by Updates From Each Secondary Proxy Model
+    JsonModel->>+Simulation : Source Model Updated by User Input for User's Airplane, Simulation Selections
+    Simulation->>+Simulation : Run the Simulation

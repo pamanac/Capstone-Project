@@ -1,0 +1,35 @@
+QPushButton#buttonNext {
+  font-size: 16pt;
+  font-weight: 900;
+  color: white; 
+  background-color: #3B9DE3;
+}
+
+QPushButton#buttonBack {
+  font-size: 16pt;
+  font-weight: 900;
+  color: white; 
+  background-color: #3B9DE3
+}
+
+QLabel#H1{
+  font-size: 16pt;
+  font-weight: 900;
+  color: black; 
+  text-align: center;
+}
+QLabel#H2{
+  font-size: 14pt;
+  font-weight: 900;
+  color: black; 
+  margin-left: 200px;
+  text-align: center;
+}
+QLabel#GearSimLogo{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+QLabel#version{
+  margin-top: 200px;
+  text-align: left;
+}

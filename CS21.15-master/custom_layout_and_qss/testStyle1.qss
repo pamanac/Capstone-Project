@@ -1,0 +1,31 @@
+QWidget {
+	background: black;
+	
+	border-style: outset;
+	border-width: 2px;
+	border-color: rbga(127, 127, 127, 127);
+	
+	color: white;
+	min-width: 10em;
+	padding: 6px;
+}
+
+QMainWindow#DisableThisStuffBecauseThisColorSetupDoesn'tWork {
+	background-color: rbga(37, 37, 37, 255);
+	border-width: 0px;
+}
+
+QCheckBox, QComboBox, QLineEdit, QTextEdit, QCheckBox, QPushButton {
+	background: white;
+	
+	color: black;
+}
+
+QPushButton:hover {
+	background-color: rgba(180, 214, 249, 255);
+}
+
+QPushButton:pressed {
+	border-style: inset;
+	background-color: rgba(27, 29, 76, 255);
+}

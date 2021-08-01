@@ -1,0 +1,3 @@
+QLabel#AirDescription{
+	margin-bottom: 200px;
+}

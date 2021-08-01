@@ -1,0 +1,79 @@
+{
+	"PrimaryTabText": {
+		"SecondaryTabText": {
+			"Page1Text": {
+				"Aircraft Mass": 10000,
+				"Aircraft length": 100
+			}
+		},
+		"SecondaryTabText2": {
+			"Page1Text": {
+				"Aircraft Moment of Inertia": 10000,
+				"Aircraft InertiaX": 100,
+				"Aircraft InertiaY": 100,
+				"Aircraft InertiaZ": 100
+			}
+		}
+	},
+
+	"category2": {
+		"field1": "c2f1",
+		"field2": "c2f2",
+		"TABLE: Dynamic Load Curve": {
+			"Column Names": [
+				"Column 1",
+				"Column 2"
+			],
+
+			"data": [
+				[
+					0,
+					0.02286,
+					0.04572,
+					0.06858,
+					0.09144,
+					0.1143,
+					0.13716,
+					0.16002,
+					0.18288,
+					0.20574,
+					0.2286,
+					0.25146,
+					0.27432,
+					0.29718,
+					0.32004,
+					0.3429,
+					0.36576,
+					0.38862,
+					0.41148,
+					0.43434,
+					0.4572
+				],
+
+				[
+					0,
+					62623.8,
+					125248,
+					187871,
+					250495,
+					313119,
+					375743,
+					438367,
+					500991,
+					563614,
+					626238,
+					688862,
+					751486,
+					814110,
+					876734,
+					939357,
+					1.00198e+06,
+					1.06461e+06,
+					1.12723e+06,
+					1.18985e+06,
+					1.25248e+06
+				]
+			]
+		}
+	}
+}
